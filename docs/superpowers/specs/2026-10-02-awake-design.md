@@ -109,7 +109,7 @@ menu item's checkmark reads `SMAppService.mainApp.status == .enabled`.
 
 - `scripts/build-app.sh` runs `swift build -c release`, assembles
   `Awake.app` (binary + `Info.plist` with `LSUIElement`,
-  `LSMinimumSystemVersion = 26.0`, bundle id `com.qureos.awake`), and ad-hoc
+  `LSMinimumSystemVersion = 26.0`, bundle id `com.utilosoft.awake`), and ad-hoc
   signs it with `codesign -s -`.
 - GitHub release ships a zipped `Awake.app`.
 - v1 is not notarized: first launch needs right-click → Open (README covers
